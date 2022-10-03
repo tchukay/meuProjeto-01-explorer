@@ -1,0 +1,52 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+
+    margin: 0;
+}
+#hero{
+  width: 592px;
+  margin: auto;  
+}
+#hero img{
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 49px;
+    line-height: 56px;
+
+    margin-bottom: 25px;
+}
+h1 span{
+    font-weight: bold;
+}
+span, a{
+    color: #FF9900;
+}
+p{
+    color: #7D7987;
+
+    font-size: 14px;
+    line-height: 28px;
+}
+.line{
+    width: 592px;
+    border: 1px solid #7D7987;
+    margin:0 auto 5px;
+}
+#footer{
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+#footer a+a{ /*aplica a margin-left so no (a) que esta a pos o outro (a)  */
+    margin-left: 28px;
+}
+#balls{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
